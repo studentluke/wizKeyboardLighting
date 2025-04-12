@@ -26,7 +26,7 @@ def getAll(r,g,b, a):
 def main():
     loop_time = time.time()
     myDevices = []
-    testStorm = cv2.imread("storm13.png")
+    testStorm = cv2.imread("storm.png")
 
     def on_state_changed(evt):
         print(evt.state)
